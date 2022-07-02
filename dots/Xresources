@@ -39,3 +39,4 @@
 URxvt*font: xft:monospace:size=11,xft:Noto Emoji:style=regular:size=11
 URxvt.scrollBar: false
 URxvt.depth: 32
+URxvt.perl-ext-common: selection-to-clipboard
