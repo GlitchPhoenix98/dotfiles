@@ -2,7 +2,6 @@
 feh --no-fehbg --bg-scale ~/.config/wallpapers/vaporwave.png
 xrdb ~/.config/Xresources 
 systemctl --user import-environment DISPLAY
-urxvtd &
 picom &
 slstatus &
 exec dwm 
