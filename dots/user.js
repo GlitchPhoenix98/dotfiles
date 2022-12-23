@@ -783,9 +783,9 @@ user_pref("privacy.clearOnShutdown.cache", true);     // [DEFAULT: true]
 user_pref("privacy.clearOnShutdown.downloads", true); // [DEFAULT: true]
 user_pref("privacy.clearOnShutdown.formdata", true);  // [DEFAULT: true]
 user_pref("privacy.clearOnShutdown.history", true);   // [DEFAULT: true]
-user_pref("privacy.clearOnShutdown.sessions", true);  // [DEFAULT: true]
+user_pref("privacy.clearOnShutdown.sessions", false);  // [DEFAULT: true]
 user_pref("privacy.clearOnShutdown.offlineApps", true);
-user_pref("privacy.clearOnShutdown.cookies", false);
+user_pref("privacy.clearOnShutdown.cookies", true);
    // user_pref("privacy.clearOnShutdown.siteSettings", false); // [DEFAULT: false]
 /* 2812: delete cache on exit [FF96+]
  * [NOTE] We already disable disk cache (1001) and clear on exit (2811) which is more robust
