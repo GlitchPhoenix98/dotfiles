@@ -3,14 +3,11 @@
 #
 
 # If not running interactively, don't do anything
-[[ $- != *i* ]] && return
 
 alias ls='ls --color=auto'
-#PS1='[\u@\h \W]\$ '
 neofetch
 PS1='\W \$ '
 alias vi='vim -i NONE'
 alias vim='vim -i NONE'
-alias unfuck_wifi='doas systemctl restart systemd-networkd'
 alias kp-radio='mpv https://kingpossum.com:8000/radio.mp3'
 alias yesterweb-radio='mpv https://radio.yesterweb.org/radio/8000/radio.mp3'
