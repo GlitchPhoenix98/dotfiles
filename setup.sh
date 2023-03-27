@@ -5,4 +5,4 @@ mkdir ~/.config &
 mv dots/gtk-3.0 ~/.config/gtk-3.0 &
 mv dots/xinitrc ~/.xinitrc &
 mv dots/wallpapers ~/.config/wallpapers &
-echo "Done! Now all you need is to manually move the user.js for firefox!"
+echo "Done! Now all you need is to manually move the user.js for firefox and compile everything in the suckless folder!"
