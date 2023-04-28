@@ -1,4 +1,5 @@
 #!/bin/sh
 feh --no-fehbg --bg-scale ~/.config/wallpapers/vaporwave.png
 slstatus &
+brightnessctl --device='asus::kbd_backlight' set 3 &
 exec dwm 
