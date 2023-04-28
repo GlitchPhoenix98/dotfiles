@@ -98,10 +98,10 @@ static Key keys[] = {
 	{ MODKEY|ShiftMask,             XK_period, tagmon,         {.i = +1 } },
 	
 	/* Laptop brightness */
-	/*
-	{ MODKEY,			XK_F12,	   spawn,	   {.v = brightup } },
-	{ MODKEY,			XK_F11,	   spawn,	   {.v = brightdown } },
-	*/
+	
+	{ MODKEY,			XK_F8,	   spawn,	   {.v = brightup } },
+	{ MODKEY,			XK_F7,	   spawn,	   {.v = brightdown } },
+	
 
 	TAGKEYS(                        XK_1,                      0)
 	TAGKEYS(                        XK_2,                      1)
