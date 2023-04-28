@@ -64,8 +64,8 @@ static const char *audio[] = { "pavucontrol", "-t", "1",  NULL };
 static const char *lock[] = { "slock", NULL };
 static const char *screenshot[] = { "scrot", "-fs", NULL };
 /* Optional Laptop Backlight bindings. */
-/* static const char *brightup[] = { "xbacklight", "-inc", "10", NULL };
-static const char *brightdown[] = { "xbacklight", "-dec", "10", NULL}; */
+static const char *brightup[] = { "light", "-A", "10", NULL };
+static const char *brightdown[] = { "light", "-U", "10", NULL}; 
 
 static Key keys[] = {
 	/* modifier                     key        function        argument */
