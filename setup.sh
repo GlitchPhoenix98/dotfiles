@@ -9,4 +9,5 @@ mv dots/wallpapers ~/.config/wallpapers &&
 cd suckless/dwm && sudo make clean install &&
 cd .. && cd slstatus && sudo make clean install &&
 cd .. && cd st && sudo make clean install &&
+mv dots/mutt ~/.config/mutt
 printf  "\n\nInstall completed, all that is required is movement of the firefox user.js and gtk settings.\n"
