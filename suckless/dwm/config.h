@@ -58,9 +58,10 @@ static const Layout layouts[] = {
 /* commands */
 static const char *dmenucmd[] = { "dmenu_run", "-fn", dmenufont, "-nb", col_gray1, "-nf", col_gray3, "-sb", col_cyan, "-sf", col_gray4, NULL };
 static const char *termcmd[]  = { "st", NULL };
-
-static const char *web[] = { "firefox", NULL };
+static const char *irc[] = { "st", "irssi", "-n", "glitchphoenix98", NULL };
+static const char *web[] = { "firefox-bin", NULL };
 static const char *audio[] = { "pavucontrol", "-t", "1",  NULL };
+static const char *mail[] = { "st", "neomutt",  NULL };
 static const char *lock[] = { "slock", NULL };
 static const char *screenshot[] = { "scrot", "-fs", NULL };
 /* Optional Laptop Backlight bindings. */
@@ -73,7 +74,9 @@ static Key keys[] = {
 	{ MODKEY,	                XK_Return, spawn,          {.v = termcmd } },
 	{ MODKEY,			XK_Print,  spawn,	   {.v = screenshot } },
 	{ MODKEY,                       XK_b,      spawn,          {.v = web } },
+	{ MODKEY,                       XK_n,      spawn,          {.v = mail } },
 	{ MODKEY,			XK_p,	   spawn,	   {.v = audio } },
+	{ MODKEY,			XK_c,	   spawn,	   {.v = irc } },
 	{ MODKEY,                       XK_j,      focusstack,     {.i = +1 } },
 	{ MODKEY,                       XK_k,      focusstack,     {.i = -1 } },
 	{ MODKEY,                       XK_i,      incnmaster,     {.i = +1 } },
