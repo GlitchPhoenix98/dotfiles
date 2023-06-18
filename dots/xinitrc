@@ -1,6 +1,4 @@
-#!/bin/sh
-feh --no-fehbg --bg-scale ~/.config/wallpapers/vaporwave.png
+#!/bin/bash
 slstatus &
-xbacklight -set 100 -ctrl asus::kbd_backlight &
-xinput set-prop 13 347 0 & 
-exec dwm 
+feh --no-fehbg --bg-scale ~/.config/wallpapers/vaporwave.png &
+exec dwm
