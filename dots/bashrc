@@ -1,13 +1,4 @@
-#
-# ~/.bashrc
-#
-
-# If not running interactively, don't do anything
-
-alias ls='ls --color=auto'
-neofetch
 PS1='\W \$ '
 alias vi='vim -i NONE'
 alias vim='vim -i NONE'
-alias kp-radio='mpv https://kingpossum.com:8000/radio.mp3'
-alias yesterweb-radio='mpv https://radio.yesterweb.org/radio/8000/radio.mp3'
+alias steam='prime-run steam'
